@@ -3,9 +3,7 @@ import ExpenseDate from "./ExpenseDate";
 import ExpenseTitle from "./ExpenseTitle";
 import ExpensePrice from "./ExpensePrice";
 
-function ExpenseItem(props){
-
-
+const ExpenseItem = (props) => {
 
     return (
         <div className="expense-item">
@@ -22,6 +20,7 @@ function ExpenseItem(props){
 
         </div>
     )
-}
+
+};
 
 export default ExpenseItem;

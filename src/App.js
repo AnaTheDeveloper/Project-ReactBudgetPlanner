@@ -3,7 +3,7 @@ import './App.css';
 import Expenses from "./components/expenses/Expenses";
 
 //Logic.
-function App() {
+const App = () => {
 
     const expenses = [
         {date: new Date(2022, 3, 24),title: 'Car Insurance', amount: 200.98},
@@ -19,7 +19,7 @@ function App() {
 
     </div>
   );
-}
+};
 
 //Makes Function Discoverable.
 export default App;

@@ -1,6 +1,6 @@
 import './ExpenseTitle.css'
 
-function ExpenseTitle(props) {
+const ExpenseTitle = (props) => {
 
 
     return (
