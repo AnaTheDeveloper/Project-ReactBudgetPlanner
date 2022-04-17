@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+//Imports.
 import './App.css';
+import Expenses from "./components/expenses/Expenses";
 
+//Logic.
 function App() {
+
+    const expenses = [
+        {date: new Date(2022, 3, 24),title: 'Car Insurance', amount: 200.98},
+        {date: new Date(2022, 9, 12),title: 'Wifi', amount: 58.67}
+    ]
+
+
+//HTML Page That is Returned After Logic is Called. (JSK->HTML running in JS).
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <p className="app-title-styling">Budget Planner</p>
+        <Expenses items={expenses}/>
+
     </div>
   );
 }
 
+//Makes Function Discoverable.
 export default App;

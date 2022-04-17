@@ -1,0 +1,9 @@
+.expense-item-description{
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.expense-item-description-title-styling{
+    font-size: 34px;
+    color: white;
+}
