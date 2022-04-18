@@ -49,7 +49,7 @@ const ExpenseForm = (props) => {
         };
         //Sending data to New Expense (Child to Parent)
         props.onSaveExpenseData(expenseData);
-        //Two way binding with value={} and state. Clears form after user has clicked submit button.
+        //Two-way binding with value={} and state. Clears form after user has clicked submit button.
         setEnteredDate('');
         setEnteredTitle('');
         setEnteredAmount('');
@@ -61,7 +61,7 @@ const ExpenseForm = (props) => {
                 <div className="new-expense-controls">
                     <div className="new-expense-control">
                         <label>Date</label>
-                        <input type='date' min="1900-01-01" max="2100-01-01" value={enteredDate} onChange={dateChangeHandler}/>
+                        <input type='date' min="2020-01-01" max="2100-01-01" value={enteredDate} onChange={dateChangeHandler}/>
                     </div>
                     <div className="new-expense-control">
                         <label>Title</label>

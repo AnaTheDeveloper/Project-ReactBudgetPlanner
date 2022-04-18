@@ -7,7 +7,7 @@ const NewExpense = (props) => {
     const onSaveExpenseDataHandler = (enteredExpenseData) => {
         const expenseData = {
             ...enteredExpenseData,
-            id: Math.random().toString()
+            id: Math.floor(Math.random() * 20).toString()
         };
         console.log('Received Expense Data from the Expense Form: ', expenseData);
         props.onAddExpense(expenseData);
