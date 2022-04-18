@@ -3,8 +3,8 @@ import './ExpenseDate.css';
 const ExpenseDate = (props) => {
 
     const day = props.date.toLocaleString('en-GB', {day: 'numeric'});
-    const month = props.date.toLocaleString('en-GB', {month: 'long'})
-    const year = props.date.toLocaleString('en-GB', {year: 'numeric'})
+    const month = props.date.toLocaleString('en-GB', {month: 'long'});
+    const year = props.date.toLocaleString('en-GB', {year: 'numeric'});
 
 
     return (
@@ -18,7 +18,7 @@ const ExpenseDate = (props) => {
 
         </div>
 
-    )
-}
+    );
+};
 
 export default ExpenseDate;

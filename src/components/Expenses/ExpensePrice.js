@@ -6,7 +6,7 @@ const ExpensePrice = (props) => {
         <div className="expense-item-price">
             <div className="expense-item-price-styling">£{props.amount}</div>
         </div>
-    )
-}
+    );
+};
 
 export default ExpensePrice;

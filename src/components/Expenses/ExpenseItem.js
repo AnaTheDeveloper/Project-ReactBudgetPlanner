@@ -19,7 +19,7 @@ const ExpenseItem = (props) => {
             </div>
 
         </div>
-    )
+    );
 
 };
 
