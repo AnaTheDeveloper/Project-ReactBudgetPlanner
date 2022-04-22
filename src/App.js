@@ -9,7 +9,7 @@ import React, {useState} from "react";
 const DummyData = [
     {date: new Date(2022, 3, 24),title: 'Car Insurance', amount: 200.98},
     {date: new Date(2021, 9, 12),title: 'Wifi', amount: 58.67},
-    {date: new Date(2020, 6, 4),title: 'Genshin', amount: 8.99}
+    {date: new Date(2021, 6, 4),title: 'Genshin', amount: 8.99}
 ];
 
 const App = () => {

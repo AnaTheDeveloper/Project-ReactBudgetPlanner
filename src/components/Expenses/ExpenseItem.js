@@ -6,19 +6,24 @@ import ExpensePrice from "./ExpensePrice";
 const ExpenseItem = (props) => {
 
     return (
-        <div className="expense-item">
+        <div>
+            <li>
+                <div className="expense-item">
 
-            <ExpenseDate date={props.date}/>
+                    <ExpenseDate date={props.date}/>
 
-            <div className="expense-item-description">
+                    <div className="expense-item-description">
 
-                <ExpenseTitle title={props.title}/>
+                        <ExpenseTitle title={props.title}/>
 
-                <ExpensePrice amount={props.amount}/>
+                        <ExpensePrice amount={props.amount}/>
 
-            </div>
+                    </div>
 
+                </div>
+            </li>
         </div>
+
     );
 
 };
