@@ -1,0 +1,11 @@
+.expenses-list {
+    list-style: none;
+    padding: 0;
+}
+
+.expenses-filter-no-expenses-found-message {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
